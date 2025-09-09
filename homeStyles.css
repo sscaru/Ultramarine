@@ -1,0 +1,118 @@
+body{
+    background-color: #091833;
+}
+
+.heading{
+    background-image: url('images/homeBG.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 150px;
+
+}
+
+p{
+    font-size: 19px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.blog-header {
+    background: #091833;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.navigator{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+
+.blog-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 1400px;
+    height: 20px;
+}
+
+.blog-post {
+    background: aliceblue;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 200px;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+.blog-post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-post h3 {
+    margin: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.post-date {
+    color: #7f8c8d;
+    margin: 0 1rem;
+    font-size: 0.9rem;
+}
+
+.blog-post p {
+    margin: 1rem;
+    color: #555;
+}
+
+.read-more {
+    display: inline-block;
+    margin: 1rem;
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.blog-footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #091833;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .articles {
+        grid-template-columns: 1fr;
+    }
+}
