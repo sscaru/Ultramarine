@@ -3,7 +3,7 @@ body{
 }
 
 .heading{
-    background-image: url('images/homeBG.jpg');
+    background-image: url('images/homeBG.JPG');
     background-size: cover;
     padding-top: 90px;
     font-size: 50px;
@@ -115,4 +115,5 @@ nav a {
     .articles {
         grid-template-columns: 1fr;
     }
+
 }
