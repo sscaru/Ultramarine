@@ -67,6 +67,13 @@ body {
             display: block;
         }
 
+        .post-sub {
+            color: #7f8c8d;
+            margin: 0 1rem;
+            font-size: 0.9rem;
+        }
+
+
         p {
             font-family: 'Times New Roman', Times, serif;
             font-size: large;
